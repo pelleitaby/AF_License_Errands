@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>20. AF LIC Hide Close Section</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Type appropriate comment here, and begin script below
+	
+    if (newValue == "7" || newValue == "8") {
+        g_form.setSectionDisplay('closure', true);
+    } else {
+        g_form.setSectionDisplay('closure', false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-03 15:53:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e5f956a6b17c60d04a40438edee3031d</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>20. AF LIC Hide Close Section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_update_name>sys_script_client_e5f956a6b17c60d04a40438edee3031d</sys_update_name>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:04:27</sys_updated_on>
+        <table>x_arams_af_license_errands</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</application>
+        <file_path/>
+        <instance_id>0a3a4f9edb0a6f409df22f17d49619af</instance_id>
+        <instance_name>serviceportal-dev</instance_name>
+        <name>sys_script_client_e5f956a6b17c60d04a40438edee3031d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;20. AF LIC Hide Close Section&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    //Type appropriate comment here, and begin script below
+	
+    if (newValue == "7" || newValue == "8") {
+        g_form.setSectionDisplay('closure', true);
+    } else {
+        g_form.setSectionDisplay('closure', false);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sahpr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-03 15:53:49&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;e5f956a6b17c60d04a40438edee3031d&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;20. AF LIC Hide Close Section&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AF License Errands" source="x_arams_af_license"&gt;0408e114b1f8e4504a40438edee3030c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="AF License Errands"&gt;0408e114b1f8e4504a40438edee3030c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e5f956a6b17c60d04a40438edee3031d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sahpr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-03 17:04:27&lt;/sys_updated_on&gt;&lt;table&gt;x_arams_af_license_errands&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1566047667</payload_hash>
+        <record_name>20. AF LIC Hide Close Section</record_name>
+        <reverted_from/>
+        <source>9808e114b1f8e4504a40438edee3030e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-03 17:04:27</sys_created_on>
+        <sys_id>681caeeeb130a0d04a40438edee3037b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176298fefa70000001</sys_recorded_at>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:04:27</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>201caeeec030a0d078783e01420b8b7b</update_guid>
+        <update_guid_history>201caeeec030a0d078783e01420b8b7b:-1566047667,f85b6aee4130a0d0f20c6860548dca16:-352831104,122b26eee430a0d08a0ea42497693684:1542475821,497a666e1730a0d03490272ce2051f00:-50045828,385aa22e3e30a0d013a0fe60e82d46b3:-1390651652,bc6566eea2fc60d0d699297094e53edb:-2094003183,7345a2aea2fc60d079d9ffbb14a286b5:2103159216,e2f46e6e4ffc60d08a99b0f75345bcbe:1072814275,63d42e6e10fc60d0d7be68d81759105b:1170619172,0cd3eaaa78fc60d0628446df5dc6e5f6:852080702,1bb326aac4fc60d092165481d987c1f0:-1009679957,a653ae2ac7fc60d0b60101155aaeeb2a:1567427500,53a226e636fc60d007e0bc8596ea05bb:-865779137,b722e2e287fc60d0d63943df2489d4c1:1567427500,dafd92e2adbc60d0c0a5d7835aacab02:1584765689,f58c1eeef37c60d02c7c4eb132b72a72:-1335174138,c84c1eae927c60d0503add9ad35d4e02:-507238359,7e2c92ae057c60d023b7a12914134d38:-83365949,86eb5e2e0e7c60d08ca29144ecc9364d:-1199384337</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-03 17:10:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0166f1f21b8e4a53803b6f695938e389</sys_id>
+        <sys_metadata>e5f956a6b17c60d04a40438edee3031d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>20. AF LIC Hide Close Section</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_parent display_value="License errands">56982d58b1f8e4504a40438edee303be</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_scope_delete display_value="">e773b5ef43b1485aa86f19b9f8f3ef79</sys_scope_delete>
+        <sys_update_name>sys_script_client_e5f956a6b17c60d04a40438edee3031d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e5f956a6b17c60d04a40438edee3031d">681caeeeb130a0d04a40438edee3037b</sys_update_version>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-03 17:10:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subcategory" table="x_arams_af_license_errands" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <name>x_arams_af_license_errands</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-27 08:21:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>38eab5ece07ca0504a4080555269a689</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subcategory</sys_name>
+            <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+            <sys_update_name>sys_choice_x_arams_af_license_errands_subcategory</sys_update_name>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-27 08:21:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Procurement</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>0</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-27 08:21:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bceab5ece07ca0504a4080555269a688</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:32:11</sys_updated_on>
+            <value>procurement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Upphandling</label>
+            <language>sv</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>0</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-30 08:33:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>655a1969b1b864904a40438edee303fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:33:25</sys_updated_on>
+            <value>procurement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Förnyelse</label>
+            <language>sv</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>1</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-30 08:34:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c8aad9e9b1b864904a40438edee30323</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:34:41</sys_updated_on>
+            <value>renewal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Renewal</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>1</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-27 08:21:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ceab5ece07ca0504a4080555269a68d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:32:17</sys_updated_on>
+            <value>renewal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ändring</label>
+            <language>sv</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>2</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-30 08:35:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>66ead9e9b1b864904a40438edee303b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:35:56</sys_updated_on>
+            <value>change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>2</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-27 08:21:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f0eaf160e0bca0504a4080555269a655</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:32:23</sys_updated_on>
+            <value>change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Termination</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>3</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-27 08:21:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>78eaf160e0bca0504a4080555269a659</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:32:29</sys_updated_on>
+            <value>termination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Uppsägning</label>
+            <language>sv</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>3</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-30 08:35:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ebbadde9b1b864904a40438edee303ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:35:11</sys_updated_on>
+            <value>termination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>4</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-27 08:21:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fceaf160e0bca0504a4080555269a65d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:32:35</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Övrigt</label>
+            <language>sv</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>4</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-30 08:36:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fd0bd9e9b1b864904a40438edee3034f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-30 08:36:26</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

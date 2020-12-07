@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="close_code" table="x_arams_af_license_errands" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>close_code</element>
+            <name>x_arams_af_license_errands</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-12-03 15:12:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>77629e6ab1f860d04a40438edee303f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>close_code</sys_name>
+            <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+            <sys_update_name>sys_choice_x_arams_af_license_errands_close_code</sys_update_name>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-12-03 15:12:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solved</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>0</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-12-03 15:12:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bb629e6ab1f860d04a40438edee303f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-12-03 15:12:26</sys_updated_on>
+            <value>Solved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>close_code</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not solved</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>1</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-12-03 15:12:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3b629e6ab1f860d04a40438edee303f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-12-03 15:12:26</sys_updated_on>
+            <value>Not solved</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

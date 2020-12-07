@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Closure information" section_id="66017990b17ce4504a40438edee303b8" sys_domain="global" table="x_arams_af_license_errands" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 13:25:25</sys_created_on>
+            <sys_id>37c639d4b1bce4504a40438edee30365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_arams_af_license_errands" sys_domain="global" view="Default view">66017990b17ce4504a40438edee303b8</sys_ui_section>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-26 13:25:25</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_code</element>
+            <position>1</position>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 13:25:25</sys_created_on>
+            <sys_id>bbc639d4b1bce4504a40438edee30365</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_arams_af_license_errands" sys_domain="global" view="Default view">66017990b17ce4504a40438edee303b8</sys_ui_section>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-26 13:25:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>2</position>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 13:25:25</sys_created_on>
+            <sys_id>33c639d4b1bce4504a40438edee30366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_arams_af_license_errands" sys_domain="global" view="Default view">66017990b17ce4504a40438edee303b8</sys_ui_section>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-26 13:25:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 13:25:25</sys_created_on>
+            <sys_id>b7c639d4b1bce4504a40438edee30366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_arams_af_license_errands" sys_domain="global" view="Default view">66017990b17ce4504a40438edee303b8</sys_ui_section>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-26 13:25:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>4</position>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 13:25:25</sys_created_on>
+            <sys_id>3fc639d4b1bce4504a40438edee30366</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_arams_af_license_errands" sys_domain="global" view="Default view">66017990b17ce4504a40438edee303b8</sys_ui_section>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-26 13:25:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>5</position>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 13:25:25</sys_created_on>
+            <sys_id>b3c639d4b1bce4504a40438edee30367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_arams_af_license_errands" sys_domain="global" view="Default view">66017990b17ce4504a40438edee303b8</sys_ui_section>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-26 13:25:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 13:25:25</sys_created_on>
+            <sys_id>3bc639d4b1bce4504a40438edee30367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_arams_af_license_errands" sys_domain="global" view="Default view">66017990b17ce4504a40438edee303b8</sys_ui_section>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-26 13:25:25</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Closure information</caption>
+            <header>false</header>
+            <name>x_arams_af_license_errands</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 13:00:12</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>66017990b17ce4504a40438edee303b8</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>x_arams_af_license_errands</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+            <sys_update_name>sys_ui_section_66017990b17ce4504a40438edee303b8</sys_update_name>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-12-03 17:07:58</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_arams_af_license_errands">x_arams_af_license_errands</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LIC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-11-26 12:23:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7798ad58b1f8e4504a40438edee303b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>LIC</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_update_name>sys_number_7798ad58b1f8e4504a40438edee303b3</sys_update_name>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-11-30 11:01:04</sys_updated_on>
+    </sys_number>
+</record_update>

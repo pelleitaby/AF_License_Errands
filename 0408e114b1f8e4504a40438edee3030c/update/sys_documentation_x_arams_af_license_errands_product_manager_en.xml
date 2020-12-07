@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="product_manager" label="Product manager" language="en" table="x_arams_af_license_errands">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>product_manager</element>
+            <help/>
+            <hint/>
+            <label>Product manager</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <plural>Product managers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 12:40:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>009c65d4b13ce4504a40438edee3030f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Product manager</sys_name>
+            <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+            <sys_update_name>sys_documentation_x_arams_af_license_errands_product_manager_en</sys_update_name>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-11-26 12:40:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

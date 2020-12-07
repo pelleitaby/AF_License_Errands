@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>10.  AF Lic Auto Close</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator (admin)">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-04-01 07:53:42</run_start>
+        <run_time>1969-12-31 23:01:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var ps = gs.getProperty('x_arams_af_license.AF_Lic_auto_close_duration');
+var pn = parseInt(ps);
+var queryTime = new GlideDateTime();
+queryTime.addDaysUTC(-pn);
+//gs.info(queryTime);
+
+var tic_to_close = new GlideRecord('x_arams_af_license_errands');
+tic_to_close.addQuery('state', 7);
+tic_to_close.addQuery('sys_updated_on', '<', queryTime);
+tic_to_close.query();
+
+while(tic_to_close.next()){
+	tic_to_close.setValue('state', 8);
+	tic_to_close.setValue('active',false);
+	tic_to_close.update();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-11-27 12:58:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ca3ab6ace0b4e0504a4080555269a61d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>10.  AF Lic Auto Close</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_update_name>sysauto_script_ca3ab6ace0b4e0504a4080555269a61d</sys_update_name>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-11-30 11:08:23</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

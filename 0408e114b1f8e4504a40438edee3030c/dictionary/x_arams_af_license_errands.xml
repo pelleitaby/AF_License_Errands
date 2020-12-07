@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="ticket" label="License errands" max_length="40" name="x_arams_af_license_errands" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Avtalsnummer" max_length="40" name="agreement_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Budget manager" max_length="32" name="budget_manager" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Building block / Product" max_length="32" name="building_block_product" reference="cmdb_ci_service" reference_qual="service_classification=Business Service^install_status!=7^operational_status!=6^EQ" reference_qual_condition="service_classification=Business Service^install_status!=7^operational_status!=6^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Kategori" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Agreement" sequence="0" value="agreement"/>
+                <element inactive_on_update="false" label="Avtal" language="sv" sequence="0" value="agreement"/>
+                <element inactive_on_update="false" label="Licens" language="sv" sequence="1" value="license"/>
+                <element inactive_on_update="false" label="License" sequence="1" value="license"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+                <element inactive_on_update="false" label="Övrigt" language="sv" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stängningskod" max_length="40" name="close_code" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Solved" sequence="0" value="Solved"/>
+                <element inactive_on_update="false" label="Not solved" sequence="1" value="Not solved"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Kontaktperson" max_length="32" name="contact_person" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Diary Classification" max_length="32" name="diary_classification" reference="x_arams_diariet_in_folder_classification" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Diary Number" max_length="40" name="diary_number" type="string"/>
+        <element label="Eskalerats" max_length="40" name="escalated" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Utgångsdatum" max_length="40" name="expiration_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Följ upp" max_length="40" name="follow" type="glide_date"/>
+        <element label="Keep In Diary" max_length="40" name="keep_in_diary" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Product manager" max_length="32" name="product_manager" reference="sys_user" type="reference"/>
+        <element label="Secrecy" max_length="40" name="secrecy" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Underkategori" max_length="40" name="subcategory" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Procurement" sequence="0" value="procurement"/>
+                <element inactive_on_update="false" label="Upphandling" language="sv" sequence="0" value="procurement"/>
+                <element inactive_on_update="false" label="Förnyelse" language="sv" sequence="1" value="renewal"/>
+                <element inactive_on_update="false" label="Renewal" sequence="1" value="renewal"/>
+                <element inactive_on_update="false" label="Ändring" language="sv" sequence="2" value="change"/>
+                <element inactive_on_update="false" label="Change" sequence="2" value="change"/>
+                <element inactive_on_update="false" label="Termination" sequence="3" value="termination"/>
+                <element inactive_on_update="false" label="Uppsägning" language="sv" sequence="3" value="termination"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+                <element inactive_on_update="false" label="Övrigt" language="sv" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Type of agreement" max_length="40" name="type_of_agreement" read_only="true" type="string"/>
+    </element>
+</database>

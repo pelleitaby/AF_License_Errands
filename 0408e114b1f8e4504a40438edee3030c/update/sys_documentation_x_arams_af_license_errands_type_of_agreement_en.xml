@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="type_of_agreement" label="Type of agreement" language="en" table="x_arams_af_license_errands">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>type_of_agreement</element>
+            <help/>
+            <hint/>
+            <label>Type of agreement</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <plural>Type of agreements</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-12-04 14:47:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>016653f2b13864d04a40438edee30342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Type of agreement</sys_name>
+            <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+            <sys_update_name>sys_documentation_x_arams_af_license_errands_type_of_agreement_en</sys_update_name>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-12-04 14:47:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

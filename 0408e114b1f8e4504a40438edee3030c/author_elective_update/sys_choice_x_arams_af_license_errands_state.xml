@@ -131,25 +131,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>For purchase</label>
-            <language>en</language>
-            <name>x_arams_af_license_errands</name>
-            <sequence>3</sequence>
-            <sys_created_by>sahpr</sys_created_by>
-            <sys_created_on>2020-11-26 15:30:06</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>8e53d258e0b060504a4080555269a681</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>sahpr</sys_updated_by>
-            <sys_updated_on>2020-11-26 15:30:06</sys_updated_on>
-            <value>4</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Till inköp</label>
+            <label>Väntar inköp</label>
             <language>sv</language>
             <name>x_arams_af_license_errands</name>
             <sequence>3</sequence>
@@ -157,9 +139,9 @@
             <sys_created_on>2020-11-30 08:38:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>428b1d6db1b864904a40438edee3034e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>sahpr</sys_updated_by>
-            <sys_updated_on>2020-11-30 08:38:39</sys_updated_on>
+            <sys_updated_on>2020-12-10 14:17:13</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -167,7 +149,25 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Beställning</label>
+            <label>Waiting purchase</label>
+            <language>en</language>
+            <name>x_arams_af_license_errands</name>
+            <sequence>3</sequence>
+            <sys_created_by>sahpr</sys_created_by>
+            <sys_created_on>2020-11-26 15:30:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8e53d258e0b060504a4080555269a681</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sahpr</sys_updated_by>
+            <sys_updated_on>2020-12-10 14:17:02</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Väntar beställning</label>
             <language>sv</language>
             <name>x_arams_af_license_errands</name>
             <sequence>4</sequence>
@@ -175,9 +175,9 @@
             <sys_created_on>2020-11-30 08:38:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>bd9b99adb1b864904a40438edee30335</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>sahpr</sys_updated_by>
-            <sys_updated_on>2020-11-30 08:38:54</sys_updated_on>
+            <sys_updated_on>2020-12-10 14:19:28</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -185,7 +185,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Ordering</label>
+            <label>Waiting ordering</label>
             <language>en</language>
             <name>x_arams_af_license_errands</name>
             <sequence>4</sequence>
@@ -193,9 +193,9 @@
             <sys_created_on>2020-11-26 15:30:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>0653d258e0b060504a4080555269a686</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>sahpr</sys_updated_by>
-            <sys_updated_on>2020-11-26 15:30:06</sys_updated_on>
+            <sys_updated_on>2020-12-10 14:18:24</sys_updated_on>
             <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

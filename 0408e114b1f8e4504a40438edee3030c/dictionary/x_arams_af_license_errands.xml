@@ -25,7 +25,8 @@
         <element label="Eskalerats" max_length="40" name="escalated" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Utgångsdatum" max_length="40" name="expiration_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Följ upp" max_length="40" name="follow" type="glide_date"/>
-        <element label="Keep In Diary" max_length="40" name="keep_in_diary" type="boolean"/>
+        <element label="Ska Diarieföras" max_length="40" name="keep_in_diary" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Master agreement" max_length="100" name="master_agreement" type="string"/>
         <element attributes="encode_utf8=false" label="Product manager" max_length="32" name="product_manager" reference="sys_user" type="reference"/>
         <element label="Secrecy" max_length="40" name="secrecy" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Underkategori" max_length="40" name="subcategory" type="string">
@@ -43,5 +44,6 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Type of agreement" max_length="40" name="type_of_agreement" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="vendor" type="string"/>
     </element>
 </database>

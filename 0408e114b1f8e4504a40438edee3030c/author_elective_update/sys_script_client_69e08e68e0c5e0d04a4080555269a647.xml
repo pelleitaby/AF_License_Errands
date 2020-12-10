@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_af_dwp_action_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>20. AF LIC Change Color On Field</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	var desc = g_form.getValue('short_description');
+	if(desc != "") {
+		g_form.getControl('short_description').style.backgroundColor = 'Red';
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-09 19:05:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>69e08e68e0c5e0d04a4080555269a647</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>20. AF LIC Change Color On Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_update_name>sys_script_client_69e08e68e0c5e0d04a4080555269a647</sys_update_name>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-09 19:05:09</sys_updated_on>
+        <table>x_arams_af_license_errands</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</application>
+        <file_path/>
+        <instance_id>0a3a4f9edb0a6f409df22f17d49619af</instance_id>
+        <instance_name>serviceportal-dev</instance_name>
+        <name>sys_script_client_69e08e68e0c5e0d04a4080555269a647</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_af_dwp_action_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;20. AF LIC Change Color On Field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	var desc = g_form.getValue('short_description');
+	if(desc != "") {
+		g_form.getControl('short_description').style.backgroundColor = 'Red';
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sahpr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-09 19:05:09&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;69e08e68e0c5e0d04a4080555269a647&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;20. AF LIC Change Color On Field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AF License Errands" source="x_arams_af_license"&gt;0408e114b1f8e4504a40438edee3030c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="AF License Errands"&gt;0408e114b1f8e4504a40438edee3030c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_69e08e68e0c5e0d04a4080555269a647&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sahpr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-09 19:05:09&lt;/sys_updated_on&gt;&lt;table&gt;x_arams_af_license_errands&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-816562229</payload_hash>
+        <record_name>20. AF LIC Change Color On Field</record_name>
+        <reverted_from/>
+        <source>9b1fa93be03c2c904a4080555269a669</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-09 19:05:09</sys_created_on>
+        <sys_id>4731ca64e0c5e0d04a4080555269a623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17648e4998c0000001</sys_recorded_at>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-09 19:05:09</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0f31ca6464c5e0d0928e28e57c30eb22</update_guid>
+        <update_guid_history>0f31ca6464c5e0d0928e28e57c30eb22:-816562229</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-09 19:06:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>05ff215fca524792b9e6924d78ca2751</sys_id>
+        <sys_metadata>69e08e68e0c5e0d04a4080555269a647</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>20. AF LIC Change Color On Field</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_parent display_value="License errands">56982d58b1f8e4504a40438edee303be</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_scope_delete display_value="">e773b5ef43b1485aa86f19b9f8f3ef79</sys_scope_delete>
+        <sys_update_name>sys_script_client_69e08e68e0c5e0d04a4080555269a647</sys_update_name>
+        <sys_update_version display_value="sys_script_client_69e08e68e0c5e0d04a4080555269a647">4731ca64e0c5e0d04a4080555269a623</sys_update_version>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-09 19:06:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

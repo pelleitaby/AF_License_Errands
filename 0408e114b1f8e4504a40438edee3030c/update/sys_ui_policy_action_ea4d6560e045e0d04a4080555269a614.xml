@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>diary_number</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-09 17:38:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ea4d6560e045e0d04a4080555269a614</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>diary_number</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ea4d6560e045e0d04a4080555269a614</sys_update_name>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-09 17:38:01</sys_updated_on>
+        <table>x_arams_af_license_errands</table>
+        <ui_policy display_value="40. AF LIC Mandatory On Close">1a4ded20e045e0d04a4080555269a69f</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

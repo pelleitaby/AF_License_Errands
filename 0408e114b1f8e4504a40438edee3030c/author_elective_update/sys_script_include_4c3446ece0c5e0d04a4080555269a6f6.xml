@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_arams_af_license.AF_License_Field_Style</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>A component on behalf of the AF License Errand application</description>
+        <name>AF_License_Field_Style</name>
+        <script><![CDATA[var AF_License_Field_Style = Class.create();
+var oneDay = 86400;
+var oneWeek = oneDay * 7;
+var oneMonth = oneWeek * 4;
+
+AF_License_Field_Style.prototype = {
+    initialize: function() {
+        var startDate = new GlideDate.getDisplayValueInternal();
+        var endDate = current.expiration_date.getDisplayValueInternal();
+
+        this.timeDiff = GlideDateTime.subtract(startDate, endDate, true);
+    },
+
+    //True if expiration_date is less than 1 day from now
+    redTime: function() {
+        return this.timeDiff <= 0; //&& current.subcategory != '';
+    },
+
+    //True if expiration_date is within 1 day from now
+    orangeTime: function() {
+        return this.timeDiff >= -(3 * oneMonth) && this.timeDiff < 0;
+    },
+
+    //Do If Suncategory = Procurement - Yellow between 6 and 3 month ago
+//     yellowTimeOne: function() {
+//         return this.timeDiff >= -(6 * oneMonth) && this.timeDiff < (3 * oneMonth);
+//     },
+
+    //Do If subcategory = Renewal - Yellow between 3 and 1 month ago
+    yellowTimeOne: function() {
+        return this.timeDiff >= -(3 * oneMonth) && this.timeDiff < (1 * oneMonth);
+    },
+
+    type: 'AF_License_Field_Style'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-09 19:18:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4c3446ece0c5e0d04a4080555269a6f6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>AF_License_Field_Style</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_update_name>sys_script_include_4c3446ece0c5e0d04a4080555269a6f6</sys_update_name>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-09 19:51:22</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</application>
+        <file_path/>
+        <instance_id>0a3a4f9edb0a6f409df22f17d49619af</instance_id>
+        <instance_name>serviceportal-dev</instance_name>
+        <name>sys_script_include_4c3446ece0c5e0d04a4080555269a6f6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_arams_af_license.AF_License_Field_Style&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;A component on behalf of the AF License Errand application&lt;/description&gt;&lt;name&gt;AF_License_Field_Style&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AF_License_Field_Style = Class.create();
+var oneDay = 86400;
+var oneWeek = oneDay * 7;
+var oneMonth = oneWeek * 4;
+
+AF_License_Field_Style.prototype = {
+    initialize: function() {
+        var startDate = new GlideDate.getDisplayValueInternal();
+        var endDate = current.expiration_date.getDisplayValueInternal();
+
+        this.timeDiff = GlideDateTime.subtract(startDate, endDate, true);
+    },
+
+    //True if expiration_date is less than 1 day from now
+    redTime: function() {
+        return this.timeDiff &lt;= 0; //&amp;&amp; current.subcategory != '';
+    },
+
+    //True if expiration_date is within 1 day from now
+    orangeTime: function() {
+        return this.timeDiff &gt;= -(3 * oneMonth) &amp;&amp; this.timeDiff &lt; 0;
+    },
+
+    //Do If Suncategory = Procurement - Yellow between 6 and 3 month ago
+//     yellowTimeOne: function() {
+//         return this.timeDiff &gt;= -(6 * oneMonth) &amp;&amp; this.timeDiff &lt; (3 * oneMonth);
+//     },
+
+    //Do If subcategory = Renewal - Yellow between 3 and 1 month ago
+    yellowTimeOne: function() {
+        return this.timeDiff &gt;= -(3 * oneMonth) &amp;&amp; this.timeDiff &lt; (1 * oneMonth);
+    },
+
+    type: 'AF_License_Field_Style'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sahpr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-09 19:18:04&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;4c3446ece0c5e0d04a4080555269a6f6&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;AF_License_Field_Style&lt;/sys_name&gt;&lt;sys_package display_value="AF License Errands" source="x_arams_af_license"&gt;0408e114b1f8e4504a40438edee3030c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="AF License Errands"&gt;0408e114b1f8e4504a40438edee3030c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4c3446ece0c5e0d04a4080555269a6f6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sahpr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-09 19:51:22&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>617070895</payload_hash>
+        <record_name>AF_License_Field_Style</record_name>
+        <reverted_from/>
+        <source>9b1fa93be03c2c904a4080555269a669</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-09 19:51:22</sys_created_on>
+        <sys_id>48db8eace009e0d04a4080555269a62d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176490ee79b0000001</sys_recorded_at>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-09 19:51:22</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>bfcb8eaccb09e0d01d3969597abda12c</update_guid>
+        <update_guid_history>bfcb8eaccb09e0d01d3969597abda12c:617070895,0aeac66c9109e0d02e641dc0c24064c4:-1666339230,a30a4ea81709e0d077cfcf4fda0061db:895348582,8fa986a8d409e0d05b4182f5e564e19d:1092056547,2c394ea8ca09e0d05880d1b058e4e17e:975109698,cef8c6687309e0d05ee6151b9c765ee2:-1954376671,1c58cee4e509e0d0753568494bbd5f0e:-1952265758,59070a646e09e0d008a24e7040f92d8a:-949242351,a126c6244709e0d004fa7f1741a87315:-758338082,05e5c6e0b709e0d0e8180da1749b8d74:-225133694,fa54ca204309e0d068e0a9697ec95070:370510813,0c348a200909e0d06eeb28f0b321e8ea:1004899630</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-10 16:40:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>679d94f596c14c80b7b4714fb14d9000</sys_id>
+        <sys_metadata>4c3446ece0c5e0d04a4080555269a6f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AF_License_Field_Style</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_scope_delete display_value="">e773b5ef43b1485aa86f19b9f8f3ef79</sys_scope_delete>
+        <sys_update_name>sys_script_include_4c3446ece0c5e0d04a4080555269a6f6</sys_update_name>
+        <sys_update_version display_value="sys_script_include_4c3446ece0c5e0d04a4080555269a6f6">48db8eace009e0d04a4080555269a62d</sys_update_version>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-10 16:40:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

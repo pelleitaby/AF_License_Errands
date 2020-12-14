@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="follow" label="Följ upp" language="sv" table="x_arams_af_license_errands">
+    <sys_documentation element="test_date" label="Test date" language="en" table="x_arams_af_license_errands">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>follow</element>
+            <element>test_date</element>
             <help/>
             <hint/>
-            <label>Följ upp</label>
-            <language>sv</language>
+            <label>Test date</label>
+            <language>en</language>
             <name>x_arams_af_license_errands</name>
-            <plural>Följ upp</plural>
+            <plural>Test dates</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>sahpr</sys_created_by>
-            <sys_created_on>2020-11-27 12:28:34</sys_created_on>
+            <sys_created_on>2020-12-14 10:18:52</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>e063726ce074e0504a4080555269a6b0</sys_id>
+            <sys_id>22b83d06e00decd04a4080555269a64d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Följ upp</sys_name>
+            <sys_name>Test date</sys_name>
             <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
-            <sys_update_name>sys_documentation_x_arams_af_license_errands_follow_sv</sys_update_name>
+            <sys_update_name>sys_documentation_x_arams_af_license_errands_test_date_en</sys_update_name>
             <sys_updated_by>sahpr</sys_updated_by>
-            <sys_updated_on>2020-11-27 12:28:34</sys_updated_on>
+            <sys_updated_on>2020-12-14 10:18:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

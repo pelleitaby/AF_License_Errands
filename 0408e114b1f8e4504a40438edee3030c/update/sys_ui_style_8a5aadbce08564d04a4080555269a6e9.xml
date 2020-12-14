@@ -3,13 +3,14 @@
         <alt/>
         <element>expiration_date</element>
         <name>x_arams_af_license_errands</name>
-        <style>background-color: orange</style>
+        <style>background-color: orange;&#13;
+color:white;</style>
         <sys_class_name>sys_ui_style</sys_class_name>
         <sys_created_by>sahpr</sys_created_by>
         <sys_created_on>2020-12-10 12:03:37</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8a5aadbce08564d04a4080555269a6e9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>x_arams_af_license_errands</sys_name>
         <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
         <sys_policy/>
@@ -17,7 +18,7 @@
         <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
         <sys_update_name>sys_ui_style_8a5aadbce08564d04a4080555269a6e9</sys_update_name>
         <sys_updated_by>sahpr</sys_updated_by>
-        <sys_updated_on>2020-12-10 16:44:58</sys_updated_on>
-        <value>javascript:new global.AF_Generic_Date_Field_Style().isBetween(-30, -1) &amp;&amp; current.subcategory == 'renewal';</value>
+        <sys_updated_on>2020-12-14 14:25:32</sys_updated_on>
+        <value>javascript:new global.AF_Generic_Date_Field_Style().isBetween(1, 29) &amp;&amp; current.subcategory == 'renewal';</value>
     </sys_ui_style>
 </record_update>

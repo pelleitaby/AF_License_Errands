@@ -24,7 +24,6 @@
         <element attributes="edge_encryption_enabled=true" label="Diary Number" max_length="40" name="diary_number" type="string"/>
         <element label="Eskalerats" max_length="40" name="escalated" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Utgångsdatum" max_length="40" name="expiration_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Följ upp" max_length="40" name="follow" type="glide_date"/>
         <element label="Ska Diarieföras" max_length="40" name="keep_in_diary" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Master agreement" max_length="100" name="master_agreement" type="string"/>
         <element attributes="encode_utf8=false" label="Product manager" max_length="32" name="product_manager" reference="sys_user" type="reference"/>
@@ -43,6 +42,7 @@
                 <element inactive_on_update="false" label="Övrigt" language="sv" sequence="4" value="other"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Test date" max_length="40" name="test_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Type of agreement" max_length="40" name="type_of_agreement" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="vendor" type="string"/>
     </element>

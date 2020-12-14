@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>follow</element>
+        <name>x_arams_af_license_errands</name>
+        <style>background-color:red;&#13;
+color:white;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-09 15:06:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0b6a4d24e001e0d04a4080555269a64c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>x_arams_af_license_errands</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_update_name>sys_ui_style_0b6a4d24e001e0d04a4080555269a64c</sys_update_name>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-11 07:50:23</sys_updated_on>
+        <value>javascript:(current.follow != '' &amp;&amp; current.follow&lt;=gs.endOfYesterday())</value>
+    </sys_ui_style>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</application>
+        <file_path/>
+        <instance_id>0a3a4f9edb0a6f409df22f17d49619af</instance_id>
+        <instance_name>serviceportal-dev</instance_name>
+        <name>sys_ui_style_0b6a4d24e001e0d04a4080555269a64c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>follow</element><name>x_arams_af_license_errands</name><style>background-color:red;&#13;
+color:white;</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>sahpr</sys_created_by><sys_created_on>2020-12-09 15:06:57</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>0b6a4d24e001e0d04a4080555269a64c</sys_id><sys_mod_count>12</sys_mod_count><sys_name>x_arams_af_license_errands</sys_name><sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope><sys_update_name>sys_ui_style_0b6a4d24e001e0d04a4080555269a64c</sys_update_name><sys_updated_by>sahpr</sys_updated_by><sys_updated_on>2020-12-11 07:50:23</sys_updated_on><value>javascript:(current.follow != '' &amp;&amp; current.follow&lt;=gs.endOfYesterday())</value></sys_ui_style></record_update>]]></payload>
+        <payload_hash>-736110973</payload_hash>
+        <record_name>x_arams_af_license_errands</record_name>
+        <reverted_from/>
+        <source>9b1fa93be03c2c904a4080555269a669</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-11 07:50:23</sys_created_on>
+        <sys_id>02f93149e089e4d04a4080555269a645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17650c78b8e0000001</sys_recorded_at>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-11 07:50:23</sys_updated_on>
+        <type>Style</type>
+        <update_guid>46f931496c89e4d0559eff4344fed144</update_guid>
+        <update_guid_history>46f931496c89e4d0559eff4344fed144:-736110973,d8d9f1413089e4d0cc0b7183c9aae12b:-1022882217,d1c23a785b41a4d0e539e1108331b0c5:1920193651,4501fef0d441a4d01e37a871dca47e8a:-1548908561,a590f2b0cc41a4d002923b51b65aa6d2:182191566,00bfeab0f441a4d03f9fe34494d22c41:-1548908561,6d7f66708d41a4d0df41589692ad896c:1790848902,6d8e2a304241a4d00002b6448944a3c6:-954852647,b05c0d68c401e0d01838d5539849fa15:-289555872,af1ccd288f01e0d08d9dcfd9b277a0a6:-277113942,98db8da49e01e0d08ea5b4299efb73ad:702468361,49ea0964da01e0d01bb84ef209f25ee1:1072529950,f1ba4564c601e0d06efce2b12a72be71:566441000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sahpr</sys_created_by>
+        <sys_created_on>2020-12-14 10:15:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>a69ce584237343749e5864af6c2ccbe4</sys_id>
+        <sys_metadata>0b6a4d24e001e0d04a4080555269a64c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_arams_af_license_errands</sys_name>
+        <sys_package display_value="AF License Errands" source="x_arams_af_license">0408e114b1f8e4504a40438edee3030c</sys_package>
+        <sys_parent display_value="License errands">56982d58b1f8e4504a40438edee303be</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AF License Errands">0408e114b1f8e4504a40438edee3030c</sys_scope>
+        <sys_scope_delete display_value="">e773b5ef43b1485aa86f19b9f8f3ef79</sys_scope_delete>
+        <sys_update_name>sys_ui_style_0b6a4d24e001e0d04a4080555269a64c</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_0b6a4d24e001e0d04a4080555269a64c">02f93149e089e4d04a4080555269a645</sys_update_version>
+        <sys_updated_by>sahpr</sys_updated_by>
+        <sys_updated_on>2020-12-14 10:15:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
